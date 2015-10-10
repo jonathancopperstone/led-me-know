@@ -9,3 +9,8 @@ These are the required node modules you need with this scaffold. Don't forget to
 
     gulp
     lodash
+
+##### Ignored files
+
+    node_modules/
+    package.json
