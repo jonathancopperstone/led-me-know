@@ -3,8 +3,8 @@
 var _       = require('lodash'),
     fs      = require('fs'),
     gulp    = require('gulp'),
-    config  = './',
     gulpDir = './gulp/',
+    config  = gulpDir + 'configs/app.conf.js',
     tasks   = fs.readdirSync(gulpDir + 'tasks/'),
     wflows  = fs.readdirSync(gulpDir + 'workflows/');
 
