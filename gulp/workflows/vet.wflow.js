@@ -22,7 +22,7 @@ module.exports = function(gulp) {
     help = 'vet the code for quality standards\n'
            + '- (-s / --src) vet only the src code\n'
            + '- (-d / --dist) vet only the dist code\n'
-           + '- (a / auto) vet and add a watch on the src\n';
+           + '- (a / auto) vet and add a watch on the src';
 
     gulp.task('vet', dependencies);
 };

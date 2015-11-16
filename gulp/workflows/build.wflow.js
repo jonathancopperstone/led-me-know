@@ -20,7 +20,7 @@ module.exports = function(gulp, args) {
     help = 'build src for development\n'
            + '- (--css) build only the styles\n'
            + '- (--js) build only the scripts\n'
-           + '- (-a / --auto) build and add a watch on the src\n';
+           + '- (-a / --auto) build and add a watch on the src';
 
     gulp.task('build', help, dependencies);
 };
