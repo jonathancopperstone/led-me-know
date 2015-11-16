@@ -2,9 +2,10 @@
 
 module.exports = function(gulp) {
 
-    var dependencies = [
-        ''
-    ];
+    var help,
+        dependencies = [
+            ''
+        ];
 
     if (args.u || args.unit) {
         dependencies.push('');
@@ -16,5 +17,10 @@ module.exports = function(gulp) {
         dependencies.push('watch:');
     }
 
-    gulp.task('test', dependencies);
+    help = 'run tests\n'
+           + '- (-u / --unit) run only the unit tests\n'
+           + '- (-i / --integration) run only the integration tests\n'
+           + '- (a / auto) run tests and add a watch on the src\n';
+
+    gulp.task('test', help, dependencies);
 };

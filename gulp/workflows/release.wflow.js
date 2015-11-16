@@ -2,9 +2,12 @@
 
 module.exports = function(gulp) {
 
-    var dependencies = [
+    var help,
+        dependencies = [
         ''
     ];
 
-    gulp.task('release', dependencies);
+    help = 'build the code for release';
+
+    gulp.task('release', help, dependencies);
 };

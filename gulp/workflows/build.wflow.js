@@ -2,9 +2,10 @@
 
 module.exports = function(gulp, args) {
 
-    var dependencies = [
-        ''
-    ];
+    var help,
+        dependencies = [
+            ''
+        ];
 
     if (args.css) {
         dependencies = [''];
@@ -16,5 +17,10 @@ module.exports = function(gulp, args) {
         dependencies.push('watch:src');
     }
 
-    gulp.task('build', dependencies);
+    help = 'build src for development\n'
+           + '- (--css) build only the styles\n'
+           + '- (--js) build only the scripts\n'
+           + '- (-a / --auto) build and add a watch on the src\n';
+
+    gulp.task('build', help, dependencies);
 };

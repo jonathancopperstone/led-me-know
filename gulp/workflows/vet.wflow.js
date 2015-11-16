@@ -2,9 +2,10 @@
 
 module.exports = function(gulp) {
 
-    var dependencies = [
-        'jshint'
-    ];
+    var help,
+        dependencies = [
+            'jshint'
+        ];
 
     if (args.jshint) {
         dependencies = ['jshint'];
@@ -17,6 +18,11 @@ module.exports = function(gulp) {
     if (args.a || args.auto) {
         dependencies.push('watch:jshint');
     }
+
+    help = 'vet the code for quality standards\n'
+           + '- (-s / --src) vet only the src code\n'
+           + '- (-d / --dist) vet only the dist code\n'
+           + '- (a / auto) vet and add a watch on the src\n';
 
     gulp.task('vet', dependencies);
 };
