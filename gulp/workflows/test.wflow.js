@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(gulp) {
+module.exports = function(gulp, args) {
 
     var help,
         dependencies = [
