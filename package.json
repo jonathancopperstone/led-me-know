@@ -2,7 +2,7 @@
   "name": "led-me-know",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/led-me-know.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/johnnycopperstone/led-me-know",
   "dependencies": {
+    "bluebird": "^3.1.1",
     "johnny-five": "^0.9.18",
     "node-pixel": "^0.6.0"
   }
