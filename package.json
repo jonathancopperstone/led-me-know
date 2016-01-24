@@ -1,6 +1,6 @@
 {
   "name": "led-me-know",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library for controlling an LED matrix.",
   "main": "lib/led-me-know.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnnycopperstone/led-me-know.git"
+    "url": "https://github.com/johnnycopperstone/led-me-know"
   },
   "author": "Johnny Copperstone <jonnce@gmail.com> (http://blog.johnnycopperstone.me/)",
   "license": "MIT",
