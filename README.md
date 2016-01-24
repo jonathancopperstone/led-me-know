@@ -9,3 +9,7 @@ Creating a custom reporter for a test framework is pretty simple using this libr
 List of reporters available:
 
 - [karma-ledmeknow-reporter](https://github.com/johnnycopperstone/karma-ledmeknow-reporter)
+
+### API documentation
+
+The documentation is auto-generated [in `./docs/`](docs/).
