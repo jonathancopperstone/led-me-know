@@ -2,6 +2,8 @@
 
 module.exports = function(gulp, args) {
 
+    /*
+
     var help,
         dependencies = [
             ''
@@ -23,4 +25,6 @@ module.exports = function(gulp, args) {
            + '- (a / auto) run tests and add a watch on the src';
 
     gulp.task('test', help, dependencies);
+
+    */
 };

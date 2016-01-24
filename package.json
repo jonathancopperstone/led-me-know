@@ -20,5 +20,17 @@
     "bluebird": "^3.1.1",
     "johnny-five": "^0.9.18",
     "node-pixel": "^0.6.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-help": "^1.6.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-markdox": "^0.1.1",
+    "gulp-pattern": "^0.1.0",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "lodash": "^4.0.0",
+    "yargs": "^3.32.0"
   }
 }

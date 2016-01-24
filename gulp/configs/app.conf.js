@@ -8,19 +8,12 @@ module.exports = {
      * - name for src entry files (js and css)
      */
 
-    name: '',
+    name: 'led-me-know',
 
     /**
      * Dir where src files
      * live.
      */
 
-    src: 'src/',
-
-    /**
-     * Dir where distributables
-     * will live.
-     */
-
-    dist: 'dist/'
+    src: './lib/'
 };
