@@ -4,7 +4,7 @@ LED Me Know is a little library which can be used to control an LED matrix or st
 
 ### Reporters
 
-Creating a custom reporter for a test framework is pretty simple using this library. Check out the [api documentation]('docs/') for more information. If you create a reporter for a framework not listed below, please PR the addition in the list below, to keep an up to date reference of all the reporters using `led-me-know`.
+Creating a custom reporter for a test framework is pretty simple using this library. Check out the [api documentation](docs/) for more information. If you create a reporter for a framework not listed below, please PR the addition in the list below, to keep an up to date reference of all the reporters using `led-me-know`.
 
 List of reporters available:
 
