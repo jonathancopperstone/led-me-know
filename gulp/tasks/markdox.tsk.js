@@ -11,7 +11,7 @@ module.exports = function(gulp, args, config) {
         return gulp
                 .src(config.src + 'led-me-know.js')
                 .pipe(markdox())
-                .pipe(concat('index.md'))
+                .pipe(concat('README.md'))
                 .pipe(gulp.dest('./docs'));
     });
 };
