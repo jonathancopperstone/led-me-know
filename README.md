@@ -1,6 +1,6 @@
 # LED Me Know
 
-LED Me Know is a little library which can be used to control an LED matrix or strip connected to a board. Paired with a custom reporter, you can display the results of your tests on a strip of LEDs. For a more detailed description on the setup, [checkout the blog post.](http://blog.johnnycopperstone.me/led-me-know)
+LED Me Know is a little library which can be used to control an LED matrix or strip connected to a board. Paired with a custom reporter, you can display the results of your tests on a strip of LEDs. It will _led you know_ when your tests have passed or failed. For a more detailed description on the setup, [checkout the blog post.](http://blog.johnnycopperstone.me/led-me-know)
 
 ### Reporters
 

@@ -1,7 +1,7 @@
 {
   "name": "led-me-know",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Library for controlling an LED matrix.",
   "main": "lib/led-me-know.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
